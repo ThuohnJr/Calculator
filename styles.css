@@ -1,0 +1,218 @@
+
+
+html{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calc{
+  display: grid;
+  grid-template-rows: 10% 80% 10%;
+  height: 100vh;
+  width:60%;
+border: 1px coral;
+border-style: double;
+justify-content: center;
+padding:10px;
+margin:10px;
+}
+.top{
+  grid-row: 1/2;
+  display: grid;
+
+}
+.display{
+  padding:10px;
+  border:1px groove lightgrey;
+  margin: 5px;
+  font-size: 2rem;
+}
+.mid{
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+.left{
+  grid-column: 1/2;
+display: grid;
+grid-template-rows: 25% 25% 25% 25%;
+width: 100%;
+}
+.row1{
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,33%);
+
+}
+.num9{
+  grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.num8{
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.num7{
+  grid-column: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row2{
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,33%);
+
+}
+.num6{
+  grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.num5{
+  grid-column:2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.num4{
+  grid-column:3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row3{
+  grid-row: 3/4;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,33%);
+
+}
+.num3{
+  grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.num2{
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.num1{
+  grid-column: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row4{
+grid-row: 4/5;
+display: grid;
+grid-template-columns: repeat(auto-fit,33%);
+
+
+}
+.num0{
+  grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.dot{
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.exp{
+  grid-column: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.right{
+  grid-column: 2/3;
+  display: grid;
+  grid-template-rows: repeat(auto-fit,1fr);
+
+}
+.del{
+  grid-row: 1/2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plus{
+  grid-row: 2/3;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.minus{
+  grid-row: 3/4;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.times{
+  grid-row: 4/5;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divide{
+  grid-row: 5/6;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.equal{
+  grid-row: 6/7;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn.operation{
+  border:0;
+  background: inherit;
+  width:100%;
+  height:100%;
+}
+.bottom{
+  grid-row: 3/4;
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background: coral;
+  padding: 0;
+  margin:0;
+}
+#calc-img{
+  width:30%;
+}
+#calc-img:hover{
+  transform: scale(1.2);
+}
+#num-img{
+  width:20%;
+
+}
+button{
+  width:130px;
+  height: 130px;
+}
